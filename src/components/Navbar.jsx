@@ -12,9 +12,10 @@ export default function Navbar() {
         </div>
         </Link>
         <div className='flex gap-3 text-[21px] font-normal'>
-            <Link className='border bg-slate-100 py-2 px-3 rounded active:bg-slate-600 active:text-white duration-200' to={"/main"}>main</Link>
-            <Link className='border bg-slate-100 py-2 px-3 rounded active:bg-slate-600 active:text-white duration-200' to={"/tecnology"}>tecnology</Link>
-            <Link className='border bg-slate-100 py-2 px-3 rounded active:bg-slate-600 active:text-white duration-200' to={"/myself"}>myself</Link>
+            <Link className='py-1 px-5 rounded-xl active:bg-slate-600 active:text-white duration-200' to={"/main"}>main</Link>
+            <Link className='py-1 px-5 rounded-xl active:bg-slate-600 active:text-white duration-200' to={"/projects"}>Projects</Link>
+            <Link className='py-1 px-5 rounded-xl active:bg-slate-600 active:text-white duration-200' to={"/tecnology"}>tecnology</Link>
+            <Link className='py-1 px-5 rounded-xl active:bg-slate-600 active:text-white duration-200' to={"/myself"}>myself</Link>
         </div>
     </div>
   )

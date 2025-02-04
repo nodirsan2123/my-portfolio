@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App container">
       <Navbar />
-      <Outlet />
+      <div className='min-w-[70vh]'>
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

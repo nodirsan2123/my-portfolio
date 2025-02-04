@@ -15,6 +15,7 @@ export default function Tecnology() {
             <li>CSS</li>
             <li>Javascript</li>
             <li>React</li>
+            <li>NextJS</li>
           </ul>
         </div>
         <div>
@@ -35,6 +36,8 @@ export default function Tecnology() {
           <ul>
             <li>Git</li>
             <li>GitHub</li>
+            <li>Ant.design</li>
+            <li>TailwindCss</li>
           </ul>
         </div>
       </div>

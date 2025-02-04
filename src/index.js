@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Main from './pages/Main';
 import Tecnology from './pages/Tecnology';
 import Myself from './pages/Myself';
+import Projects from './pages/Projects';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
         <Route path='/' element={<Main />} />
           <Route path='/main' element={<Main />} />
           <Route path='/tecnology' element={<Tecnology />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='/myself' element={<Myself />} />
         </Route>
       </Routes>
